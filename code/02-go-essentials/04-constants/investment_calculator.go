@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	const inflationRate = 6.5
+	const inflationRate float64 = 6.5
 	var investmentAmount float64 = 1000
 	years := 10.0
 	expectedReturnRate := 5.5

@@ -13,9 +13,7 @@ type user struct {
 }
 
 func (u user) outputUserDetails() {
-	// ...
-
-	fmt.Println(u.firstName, u.lastName, u.birthDate)
+	fmt.Println(u.firstName, u.lastName, u.birthDate, u.createdAt)
 }
 
 func main() {
@@ -33,7 +31,6 @@ func main() {
 	}
 
 	// ... do something awesome with that gathered data!
-
 	appUser.outputUserDetails()
 }
 

@@ -12,7 +12,7 @@ func main() {
 	fmt.Println("Age:", *agePointer)
 
 	editAgeToAdultYears(agePointer)
-	fmt.Println(age)
+	fmt.Println("Age after editAgeToAdultYears:", age)
 }
 
 func editAgeToAdultYears(age *int) {

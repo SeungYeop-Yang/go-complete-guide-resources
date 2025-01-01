@@ -7,6 +7,7 @@ func main() {
 	// userNames := []string{}
 
 	userNames[0] = "Julie"
+	userNames[1] = "Anderson"
 
 	userNames = append(userNames, "Max")
 	userNames = append(userNames, "Manuel")

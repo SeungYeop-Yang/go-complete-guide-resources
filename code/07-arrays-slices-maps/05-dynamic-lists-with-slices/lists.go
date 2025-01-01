@@ -8,6 +8,7 @@ func main() {
 	prices[1] = 9.99
 
 	prices = append(prices, 5.99)
+	fmt.Println(prices)
 	prices = prices[1:]
 	fmt.Println(prices)
 }

@@ -12,4 +12,6 @@ func main() {
 	fmt.Println(productNames)
 
 	fmt.Println(prices[2])
+	fmt.Println(len(productNames))
+	fmt.Println(len(productNames[0]))
 }
